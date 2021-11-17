@@ -34,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        loginUsecase = LoginUseCase()
+        loginUsecase = LoginUseCaseFake()
 
         scope = CoroutineScope(Job() + Dispatchers.Main)
 

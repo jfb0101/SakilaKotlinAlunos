@@ -1,4 +1,6 @@
 package br.pucminas.iot.mov.sakilakotlinalunos.models
 
-class Film {
-}
+data class Film (
+    val id: Int,
+    val title: String
+)
